@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HW3</string>
+    <!--________________________________Menu__________________________________-->
+    <string name="ActivityA">Activity A</string>
+    <string name="ActivityB">Activity B</string>
+    <string name="ActivityC">Activity C</string>
+
+    <!--________________________________Main Activity__________________________-->
+    <string name="button1MainActivity">CLICK</string>
+
+    <!--________________________________Activity  A____________________________-->
+
+
+
+    <!--________________________________Activity  B____________________________-->
+
+    <string name="button1">Кнопка 1</string>
+    <string name="button2">Кнопка 2</string>
+    <string name="button3">Кнопка 3</string>
+    <string name="button4">Кнопка 4</string>
+    <string name="button5">Кнопка 5</string>
+
+    <!--________________________________Activity  C____________________________-->
+
+    <string name="textView1">тут написан какойто текст 1</string>
+    <string name="textView2">тут написан какойто текст 2</string>
+    <string name="textView3">тут написан какойто текст 3</string>
+    <string name="textView4">тут написан какойто текст 4</string>
+    <string name="textView5">тут написан какойто текст 5</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.hw3.ActivityA">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="3"
+
+        android:ems="8"
+        android:layout_margin="@dimen/activity_top_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText"
+        android:layout_margin="@dimen/activity_top_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/editText2"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_margin="@dimen/activity_top_margin"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editText2"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_margin="@dimen/activity_top_margin"
+        android:textSize="30dp"/>
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_gravity="center"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:ems="10"
+        android:layout_margin="@dimen/activity_top_margin"
+        android:textSize="30dp"/>
+</LinearLayout>
